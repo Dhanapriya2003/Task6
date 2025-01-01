@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/Task6.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <form class="contact-form" action="submit_form.php" method="POST">
+        <h2>Contact Us</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        
+        <label for="employee-type">Employee Type:</label>
+        <div class="radio-group">
+            <input type="radio" id="salaried" name="employee_type" value="salaried" required>
+            <label for="salaried">Salaried</label>
+            
+            <input type="radio" id="own-business" name="employee_type" value="own-business" required>
+            <label for="own-business">Own Business</label>
+        </div>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

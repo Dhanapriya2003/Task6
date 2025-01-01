@@ -1,0 +1,49 @@
+/* General Styling for the Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header and Data Styling */
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Header Background and Text Styling */
+th {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+}
+
+/* Zebra Striping for Table Rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect for Rows */
+tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Subheader Styling for Category Rows */
+.subheader {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}

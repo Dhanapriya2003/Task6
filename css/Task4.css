@@ -1,0 +1,25 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
